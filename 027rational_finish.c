@@ -17,8 +17,6 @@ int denominator (struct rational z)
     return z.denominator;
 }
 
-
-
 int gcd(int x, int y)
 {
     if (y == 0)
