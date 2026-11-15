@@ -25,7 +25,7 @@ int main(void)
 {
     int a[10], i;
 
-    printf("请输入10个整数:\n");
+    printf("锟斤拷锟斤拷锟斤拷10锟斤拷锟斤拷锟斤拷:\n");
 
     for (i = 0; i < 10; i++)
     {
@@ -34,7 +34,7 @@ int main(void)
 
     sort(a, 10);
 
-    printf("排序后的数组为：");
+    printf("锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷为锟斤拷");
 
     for (i = 0; i < 10; i++)
     {
