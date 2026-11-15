@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 #define N 20
 
 int a[N];
@@ -42,7 +43,7 @@ int howmany(int value)
 int main(void)
 {
     int histogram[10] = {0};
-
+    srand(time(NULL));
     gen_random(10);
     print_random();
 
