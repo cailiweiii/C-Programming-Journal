@@ -33,9 +33,9 @@ void permute(int a[], int start, int n,int m)
 
 int main(void)
 {
-    int a[4] = {1, 2, 3,4};
+    int a[3] = {1, 2, 3};
 
-    permute(a, 0, 4,2);
+    permute(a, 0, 3,2);
 
     return 0;
 }
