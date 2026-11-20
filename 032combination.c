@@ -1,5 +1,5 @@
 #include <stdio.h>
-void combine(int a[], int n, int m,int start, int depth, int selected[])
+void combine(int a[], int n, int m, int start, int depth, int selected[])
 {
     if (depth == m)
     {
@@ -16,7 +16,7 @@ void combine(int a[], int n, int m,int start, int depth, int selected[])
     {
         selected[depth] = a[i];
 
-        combine(a, n, m, i+1, depth+1, selected);
+        combine(a, n, m, i + 1, depth + 1, selected);
     }
 }
 int main(void)
