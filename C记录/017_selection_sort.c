@@ -1,24 +1,22 @@
-
 #include <stdio.h>
 
 void sort(int a[], int n)
 {
     int i, j, min, temp;
-    for ( i = 0; i < n-1; i++)
+    for (i = 0; i < n - 1; i++)
     {
-        min=i;
-    for ( j = i+1; j< n; j++)
-    {
-        if (a[j]<a[min])
+        min = i;
+        for (j = i + 1; j < n; j++)
         {
-            min=j;
+            if (a[j] < a[min])
+            {
+                min = j;
+            }
         }
+        temp = a[i];
+        a[i] = a[min];
+        a[min] = temp;
     }
-        temp=a[i];
-        a[i]=a[min];
-        a[min]=temp;
-    }
-        
 }
 
 int main(void)
@@ -43,4 +41,3 @@ int main(void)
 
     return 0;
 }
-
